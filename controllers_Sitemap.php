@@ -25,13 +25,13 @@ class Sitemap extends CI_Controller
 		);
 
 		//////////////////////////////////////////////////////////////////////////////////////////////////////
-		// content_page
+		// content_page (Mysql Query Example)
 		//////////////////////////////////////////////////////////////////////////////////////////////////////
 		$url_arrays = array('study', 'library', 'platform', 'work');
 
 		foreach($url_arrays as $url_arrays)
 		{
-			$result_arr = $this->db->query(" SELECT `idx` FROM `{$url_arrays}` WHERE `show` = '보이기' ")->result_array();
+			$result_arr = $this->db->query(" [YOUR QUERY] ")->result_array();
 			foreach ($result_arr as $result_arr)
 			{
 				//Make Url
