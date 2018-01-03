@@ -2,9 +2,9 @@
 Codeigniter Sitemap example
 
 ------------------------------
-controllers : Sitemap.php \
+controllers : controllers_Sitemap.php \
 config : routes.php \
-view : Sitemap.php
+view : view_sitemap.php
 
 
 And Check it this : https://varvy.com/
