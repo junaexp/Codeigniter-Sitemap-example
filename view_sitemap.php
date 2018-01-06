@@ -4,7 +4,7 @@
 
     <?php foreach($list as $url) { ?>
     <url>
-        <loc><?=base_url().$url;?></loc>
+        <loc><?=$url;?></loc>
         <priority>0.5</priority>
     </url>
     <?php } ?>
