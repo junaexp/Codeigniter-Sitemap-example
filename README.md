@@ -1,5 +1,7 @@
-# Codeigniter-Sitemap-example
-Codeigniter Sitemap example
+# Codeigniter-Sitemap-example (XML)
+Codeigniter Sitemap example (XML)
+
+Reference : https://stackoverflow.com/questions/11186051/sitemap-generation-with-codeigniter
 
 ------------------------------
 controllers : controllers_Sitemap.php \
